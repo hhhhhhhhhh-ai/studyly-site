@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+
+[functions]
+  directory = "netlify/functions"
+
+# lets people use the short address  your-site.netlify.app/app
+[[redirects]]
+  from = "/app"
+  to = "/app.html"
+  status = 200
