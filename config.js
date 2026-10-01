@@ -6,7 +6,7 @@ window.CONFIG = {
   APP_NAME: "Studyly",
 
   // The Windows installer that the "Download" buttons give people.
-  INSTALLER_URL: "https://github.com/hhhhhhhhhh-ai/keyhosh/raw/refs/heads/main/Studyly%20Installer.exe",
+  INSTALLER_URL: "https://github.com/hhhhhhhhhh-ai/keyhosh/blob/main/Studyly%20Installer.exe",
 
   // --- AI (free Google Gemini, runs safely on Netlify) ---
   // After deploying on Netlify, set this to: "/.netlify/functions/ai"
