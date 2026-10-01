@@ -11,13 +11,13 @@ window.CONFIG = {
   // --- AI (free Google Gemini, runs safely on Netlify) ---
   // After deploying on Netlify, set this to: "/.netlify/functions/ai"
   // Empty = demo mode (simple built-in helpers, no real AI).
-  AI_ENDPOINT: "",
+  AI_ENDPOINT: "/.netlify/functions/ai",
 
   // --- Database + accounts (free Supabase) ---
   // Paste the Project URL and the anon / publishable key from Supabase (Project Settings > API).
   // These two are designed to be public. Empty = accounts are saved in the visitor's browser only.
-  SUPABASE_URL: "",
-  SUPABASE_ANON_KEY: "",
+  SUPABASE_URL: "https://fwuhjuplqlsocsjhdmmt.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_CWjatNc89u1wbLKfF1SzZg_p8yWBuYu",
 
   // Link to the source code. Leave empty until you want it public:
   // the "Source code" button says "coming soon" while this is empty.
